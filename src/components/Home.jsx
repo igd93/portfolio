@@ -11,21 +11,22 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-white">
           Igor Drozhilkin
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-gray-400">
-          I am a 
+        <p className="text-4xl sm:text-7xl font-bold text-gray-400">
+          I am 
+        </p>
           <Typed
             className="text-4xl 
           sm:text-7xl text-gray-400 font-bold"
             strings={[
-              "  Frontend Developer",
-              "  Backend Developer",
-              "  Full Stack Developer",
+              " a Frontend Developer",
+              " a Backend Developer",
+              " a Full Stack Developer",
             ]}
             typeSpeed={150}
             backSpeed={120}
             loop
           />
-        </h2>
+        
         <p className="text-xl font-bold text-white py-4 max-w-[700px]">
           Welcome to my portfolio! I'm an aspiring full-stack developer
           passionate about crafting user-friendly digital experiences. With a
