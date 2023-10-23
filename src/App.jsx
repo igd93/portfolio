@@ -1,10 +1,9 @@
-import { useState } from "react";
-
+import React from "react";
+import Sidenav from "./components/Sidenav";
 function App() {
-
-  return(
+  return (
     <div>
-      <h1 className="text-2xl font-bold">Hello</h1>
+      <Sidenav />
     </div>
   );
 }
