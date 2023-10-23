@@ -1,9 +1,9 @@
 import React from "react";
-import Sidenav from "./components/Sidenav";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-      <Sidenav />
+      <Navbar />
     </div>
   );
 }
