@@ -12,7 +12,7 @@ const Home = () => {
           Igor Drozhilkin
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-400">
-          I am a
+          I am a 
           <Typed
             className="text-4xl 
           sm:text-7xl text-gray-400 font-bold"
