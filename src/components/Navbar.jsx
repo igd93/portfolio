@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLineFill } from "react-icons/bs";
 import Logo from "../assets/computer-logos-4.gif";
-import LinkedIn from "../assets/linkedin-original.svg";
-import GitHub from "../assets/github-original.svg";
-import Email from "../assets/email-log-png-1104.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,7 +47,9 @@ const Navbar = () => {
       {/*Social Icons*/}
       <div className="flex flex-col top-[35%] left-0"></div>
       <ul>
-        <li></li>
+        <li>
+          <a href="/">LinkedIn</a>
+        </li>
         <li></li>
         <li></li>
       </ul>
