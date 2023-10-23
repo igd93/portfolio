@@ -17,9 +17,9 @@ const Home = () => {
             className="text-4xl 
           sm:text-7xl text-gray-400 font-bold"
             strings={[
-              " Frontend Developer",
-              " Backend Developer",
-              " Full Stack Developer",
+              "  Frontend Developer",
+              "  Backend Developer",
+              "  Full Stack Developer",
             ]}
             typeSpeed={150}
             backSpeed={120}
