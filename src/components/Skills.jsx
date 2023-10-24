@@ -26,7 +26,7 @@ const Skills = () => {
         </div>
 
         {/* Image container */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 overflow-auto">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 overflow-auto md:overflow-hidden">
           {/* JavaScript*/}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
