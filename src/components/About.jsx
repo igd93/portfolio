@@ -21,13 +21,11 @@ const About = () => {
           </div>
           <div>
             <p>
-              Welcome to my portfolio! I'm an aspiring full-stack developer
-              passionate about crafting user-friendly digital experiences. With
-              a strong background in front-end and back-end technologies, I
-              enjoy turning creative ideas into functional applications. I'm
-              committed to staying at the forefront of web development and
-              excited to collaborate on innovative projects. Let's embark on
-              this coding journey together!
+              Welcome to my portfolio! I'm an aspiring full-stack developer with
+              a passion for crafting user-friendly digital experiences. With a
+              strong background in front-end and back-end technologies, I turn
+              creative ideas into functional applications. Let's embark on this
+              coding journey together!
             </p>
           </div>
         </div>
