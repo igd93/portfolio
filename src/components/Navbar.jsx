@@ -29,10 +29,10 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contacts</li>
+        <li><Link to="about" smooth={true} duration={500}>About</Link></li>
+        <li><Link to="skills" smooth={true}>Skills</Link></li>
+        <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+        <li><Link to="contact" smooth={true} duration={500}>Contacts</Link></li>
       </ul>
 
       {/*Hamburger*/}
