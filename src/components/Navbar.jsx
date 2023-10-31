@@ -10,10 +10,8 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="cursor-pointer">
-        <Link to="home" smooth={true} duration={500}>
-          <img src={Logo} style={{ width: "70px" }} />
-        </Link>
+      <div>        
+          <img src={Logo} style={{ width: "70px" }} />        
       </div>
       {/*Menu */}
 
@@ -39,7 +37,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} offset={-70}>
+          <Link to="contact" smooth={true} duration={500} offset={-90}>
             Contacts
           </Link>
         </li>
@@ -60,12 +58,12 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} offset={-70}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} offset={-40}>
             About
           </Link>
         </li>
