@@ -155,7 +155,7 @@ const Projects = () => {
             {/*Hover Effects */}
             <div className="opacity-0 group-hover:opacity-80 ">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Ecommerce Delivery App
+                Ecommerce App
               </span>
               <div className="pt-8 text-center">
                 <a href="">

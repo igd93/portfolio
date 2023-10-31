@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -11,22 +12,20 @@ const Home = () => {
         <h1 className="text-4xl sm:text-7xl font-bold text-white">
           Igor Drozhilkin
         </h1>
-        <p className="text-4xl sm:text-7xl font-bold text-gray-400">
-          I am 
-        </p>
-          <Typed
-            className="text-4xl 
+        <p className="text-4xl sm:text-7xl font-bold text-gray-400">I am</p>
+        <Typed
+          className="text-4xl 
           sm:text-7xl text-gray-400 font-bold"
-            strings={[
-              " a Frontend Developer",
-              " a Backend Developer",
-              " a Full Stack Developer",
-            ]}
-            typeSpeed={150}
-            backSpeed={120}
-            loop
-          />
-        
+          strings={[
+            " a Frontend Developer",
+            " a Backend Developer",
+            " a Full Stack Developer",
+          ]}
+          typeSpeed={150}
+          backSpeed={120}
+          loop
+        />
+
         <p className="text-xl font-bold text-white py-4 max-w-[700px]">
           Welcome to my portfolio! I'm an aspiring full-stack developer
           passionate about crafting user-friendly digital experiences. With a
@@ -37,7 +36,9 @@ const Home = () => {
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-red-500 hover:border-red-500">
-            View Projects
+            <Link to="projects" smooth={true} duration={500}>
+              View Projects
+            </Link>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
