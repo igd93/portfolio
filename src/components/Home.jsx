@@ -9,11 +9,19 @@ const Home = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-gray-400 text-xl font-bold ">Hi, my name is</p>
-        <h1 className="text-4xl font-bold text-white">
-          Igor Drozhilkin
-        </h1>
-        <p className="text-4xl font-bold text-gray-400">
-          I am a Web Developer
+        <h1 className="text-4xl font-bold text-white">Igor Drozhilkin</h1>
+        <p>
+          <Typed
+            className="text-gray-400 text-xl font-bold"
+            strings={[
+              "Full Stack Engineer",
+              "Front-end engineer",
+              "Back-end engineer",
+            ]}
+            typeSpeed={120}
+            backSpeed={130}
+            loop
+          />
         </p>
         <p className="text-xl font-bold text-white max-w-[700px]">
           Welcome to my portfolio! I'm an aspiring full-stack developer
