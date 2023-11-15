@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="text-4xl font-bold text-white">Igor Drozhilkin</h1>
         <p>
           <Typed
-            className="text-gray-400 text-xl font-bold"
+            className="text-gray-400 text-xl font-bold pl-2" 
             strings={[
               "Full Stack Engineer",
               "Front-end engineer",
